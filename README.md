@@ -9,6 +9,7 @@
 
 
 ## File Structure
+<pre>
 .
 ├── mind-lines-backend
 │   ├── config
@@ -89,7 +90,7 @@
 └── README.md
 
 26 directories, 51 files
-
+</pre>
 
 ## Author
 
