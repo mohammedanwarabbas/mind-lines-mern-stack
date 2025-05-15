@@ -1,0 +1,41 @@
+# ======================
+# Frontend (React)
+# ======================
+mind-lines-frontend/node_modules/ 
+mind-lines-frontend/.pnp
+mind-lines-frontend/.pnp.js
+mind-lines-frontend/coverage/      
+mind-lines-frontend/build/       
+mind-lines-frontend/.DS_Store
+mind-lines-frontend/.env*
+mind-lines-frontend/npm-debug.log*
+mind-lines-frontend/yarn-debug.log*
+mind-lines-frontend/yarn-error.log*
+
+# ========================
+# Backend (Node.js) Specific
+# ========================
+mind-lines-backend/node_modules/
+mind-lines-backend/logs/
+mind-lines-backend/.nyc_output/
+mind-lines-backend/.env*
+mind-lines-backend/*.log*
+mind-lines-backend/.eslintcache
+mind-lines-backend/.DS_Store
+mind-lines-backend/.grunt
+mind-lines-backend/.npm
+mind-lines-backend/.node_repl_history
+mind-lines-backend/*.pid
+mind-lines-backend/*.seed
+mind-lines-backend/*.tsbuildinfo
+mind-lines-backend/.serverless/
+
+# ========================
+# Universal Ignores
+# ========================
+.DS_Store
+*.tgz
+.idea/
+.vscode/
+*.tmp
+*.bak

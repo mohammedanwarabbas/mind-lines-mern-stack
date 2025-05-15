@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+
+/* making footer sticked to bottom even for small cotnents */
+html, body, #root {
+    height: 100%;
+  }
+#root {
+display: flex;
+flex-direction: column;
+}
+#footer-section { 
+    margin-top: auto ;
+}
+
+Card{
+    background-color: red;
+}
+
