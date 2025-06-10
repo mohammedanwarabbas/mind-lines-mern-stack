@@ -57,6 +57,7 @@ const WriterDashboard = () => {
             <CardContent>
               <TotalQuotesIcon sx={{ fontSize: 40, mb: 1 }} />
               <Typography variant="h6">Total Quotes Published</Typography>
+              <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
               <Typography variant="h4" sx={{ fontWeight: "bold" }}>
                 {stats.totalQuotes}
               </Typography>
@@ -66,6 +67,7 @@ const WriterDashboard = () => {
                              endIcon={<ArrowForwardIosIcon />}
                 >View my Quotes
               </Button>
+</Box>
             </CardContent>
           </Card>
         </Grid>

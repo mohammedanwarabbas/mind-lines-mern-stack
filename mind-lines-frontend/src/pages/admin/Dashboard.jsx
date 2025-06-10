@@ -61,6 +61,7 @@ const AdminDashboard = () => {
             <CardContent>
               <TotalQuotesIcon sx={{ fontSize: 40, mb: 1 }} />
               <Typography variant="h6">Total Quotes Published</Typography>
+              <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
               <Typography variant="h4" sx={{ fontWeight: "bold" }}>
                 {stats.totalQuotes}
               </Typography>
@@ -70,6 +71,7 @@ const AdminDashboard = () => {
               endIcon={<ArrowForwardIosIcon />}
   >View All Quotes
 </Button>
+</Box>
             </CardContent>
           </Card>
         </Grid>
@@ -107,6 +109,7 @@ const AdminDashboard = () => {
             <CardContent>
               <PeopleIcon sx={{ fontSize: 40, mb: 1 }} />
               <Typography variant="h6">Total Writers</Typography>
+              <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
               <Typography variant="h4" sx={{ fontWeight: "bold" }}>
               {stats.totalWriters}
               </Typography>
@@ -116,6 +119,7 @@ const AdminDashboard = () => {
               endIcon={<ArrowForwardIosIcon />}
   >View Registered Writers
   </Button>
+  </Box>
             </CardContent>
           </Card>
         </Grid>
